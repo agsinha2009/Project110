@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+  margin-left: 50px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 110</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+     <h2 class="text-capitalize bg-primary">gesture web app
+        <br>
+        <span>&#128078;</span>
+        <span>&#9996;</span>
+        <span>&#128076;</span>
+     </h2>
+     <br>
+
+     <h3>Take a selfie with one of the gesture to get to know about it's meaning</h3>
+     <br>
+     <p>On the following gestures the model is trained - </p>
+
+     <h2>
+     <span>&#128078;</span>
+     <span>&#9996;</span>
+     <span>&#128076;</span>
+    </h2>
+    <br>
+
+    <div class="col-md-4 col-sm-12 col-xs-12">
+        <center>
+            <label>Snapshot - </label>
+            <br>
+            <div id="camera">
+            
+            </div>
+            <br>
+            <button class="btn btn-primary" onclick="take_snapshot();">Take Selfie</button>
+        </center>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Prediction: </label>
+            <br>
+         </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <center>
+            <label>Result - </label>
+            <div id="result">
+
+            </div>
+            <br>
+            <button class="btn btn-success" onclick="check();">Check</button>
+        </center>
+        </div>
+</body>
+</html>
